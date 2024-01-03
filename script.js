@@ -15,7 +15,7 @@ if (!score) {
   score = 0;
 }
 
-scoreEl.innerText = `score sid: ${score}`;
+scoreEl.innerText = `score: ${score}`;
 
 formEl.addEventListener("submit", (e) => {
   // e.preventDefault();
